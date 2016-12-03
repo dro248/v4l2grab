@@ -11,3 +11,18 @@ For installation, follow the instructions into the [GitHub Wiki](https://github.
 Try `./v4l2grab -h` or just `v4l2grab` if you have installed it to get some help.
 
 If your webcam works, please add it to the [Compatible Devices](https://github.com/twam/v4l2grab/wiki/Compatible%20Devices) table.
+
+# Installation
+```
+git clone https://github.com/dro248/v4l2grab.git
+
+./autogen.sh
+
+./configure
+
+make
+
+sudo make install
+
+v4l2grab -d /dev/video0 -o output.jpg
+```
