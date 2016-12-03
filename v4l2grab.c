@@ -113,7 +113,7 @@ static const char* const continuousFilenameFmt = "%s_%010"PRIu32"_%"PRId64".jpg"
 SIGINT interput handler
 */
 void StopContCapture(int sig_id) {
-	printf("stoping continuous capture\n");
+	printf("stopping continuous capture\n");
 	continuous = 0;
 }
 
